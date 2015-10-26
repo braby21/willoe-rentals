@@ -1,0 +1,50 @@
+body {
+	background: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+}
+header {
+	margin: 10px auto 0 auto; 
+	width: 1000px;
+	padding: 10px 10px 90px 10px;
+	background-color: #00a65e;
+	border-radius: 25px 25px 0 0;
+}
+header img {
+	position: relative;
+	float: left;
+}
+header h1 {
+	float: right;
+	color: #ffffff;
+}
+.sections {
+	width: 970px;
+	margin: auto;
+	padding-left: 50px;
+	background-color: #4169E1;
+	color: #ffffff;
+	list-style: none;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: bold;
+}
+footer {
+	margin: 10px auto 0 auto; 
+	width: 1000px;
+}
+footer .CRA {
+	position: relative;
+	float: left;
+}
+footer .payment {
+	height: 0px;
+	wdith: 10px;
+}
+footer .ARA {
+	position: relative;
+	float: right;	
+}
