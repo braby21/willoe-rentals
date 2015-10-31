@@ -4,16 +4,20 @@
 		<title>Willoe Rentals | Equipment Rentals | Stratford, ON</title>
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="shortcut icon" type="image/png" href="images/willoe-shortcut-icon.png">
+		<link rel="shortcut icon" type="image/jpg" href="images/willoe-shortcut-icon.jpg">
+		<!--I have permission to use Willoe Rentals logo from Willoe Rentals-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="java.js"></script>
 	</head>
 	<body>
 		<div class="container clearfix">
 			<header class="clearfix">
-				<a href="index.html"><img src="images/willoe-logo.png" alt="Willoe Rentals Logo" id="header-image" /></a>
+				<a href="index.html"><img src="images/willoe-logo.jpg" alt="Willoe Rentals Logo" id="header-image" /></a>
+				<!--I have permission to use Willoe Rentals logo from Willoe Rentals-->
 				<div class="header-fb dark-font">
 					<a href="https://www.facebook.com/WilloeRentals" target="_blank"><img src="images/find-us-on-facebook.png" alt="Find us on Facebook" title="Click to Find us on Facebook!"/></a>
+					<!--I signed the waiver on facebook allowing me to use this logo-->
 				</div>
 			</header>
 			<nav class="dark-background-white-font clearfix">
@@ -28,12 +32,13 @@
 			<div class="content dark-font">
 		
 				<h4>Please complete the below and we will respond prompty</h3>
-				<form action="#">
-					<p>Name <input type="text" name="fullname" size="15" maxlength="30" /></p>
-					<p>E-Mail <input type="text" name="email" size="15" maxlength="30" /></p>
-					<p>Phone <input type="text" name="phone" size="15" maxlength="30" /></p>
-					<p>Comments <br /><textarea name="comments" cols="20" rows="5"></textarea></p>
-					<p><input type="submit" name="submit" value="Submit" /></p>
+				<form name="subscribe" action="contact.html">
+					<p>Name: <input type="text" name="name" size="26" maxlength="30" id="txt_name"/></p>
+					<p>Email: <input type="text" name="email" size="26" maxlength="30" /></p>
+					<p>Phone: <input type="text" name="phone" size="25" maxlength="30" /></p>
+					<p>Comments: <br /><textarea name="comments" cols="30" rows="6"></textarea></p>
+					<p><input type="submit" name="submit" value="Submit" onclick="clickSubmit();"/></p>
+					
 				</form>
 
 			</div>
@@ -50,6 +55,7 @@
 				Sat: 8am - 12pm<br />
 				Sun: Closed</p>
 				<img src="images/cra-logo.jpg" alt="Proud Member of the Canadian Rental Assocation" />
+				<!--Willoe Rentals is a member of the CRA and has permission to use this logo on their site-->
 			</aside>
 		</div>
 		<footer class="dark-background-white-font">

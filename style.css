@@ -105,17 +105,14 @@ li a {
 	color: #fff;
 }
 .services {
-	background: url(images/under-construction-background.jpeg) no-repeat center center;
 	text-align: center;
-	color: #fff;
-	height: 400px;
+	color: #204288;
+	height: 200px;
 }
 
 
 
-
-
-@media screen and (min-width: 480px) {
+@media all and (min-width: 480px) {
 	
 	/* #structure */
 
@@ -128,7 +125,7 @@ li a {
 	}
 }
 
-@media screen and (min-width: 720px) {
+@media all and (min-width: 720px) {
 	
 	/* #structure */
 
@@ -169,11 +166,30 @@ li a {
 	li a:hover {
 		background-color: #00aa00;
 	}
+	.services {
+		background: url(images/under-construction-background.jpeg) no-repeat center center; /* the background image is a free stock image */
+		color: #fff;
+		height: 400px;
+	}
+	input[type="submit"] {
+		box-shadow: 0;
+		transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+	}
+	input[type="submit"]:hover {
+		background-color: #00aa00;
+		color: #fff;
+		box-shadow: 2px 2px 2px #000;
+	}
+	input[type="submit"]:focus {
+		background-color: #fff;
+		color: #00aa00;
+		box-shadow: 2px 2px 2px #000;
+	}
 }
 
 
 
-@media screen and (min-width: 1024px) {
+@media all and (min-width: 1024px) {
 
 /* #structure */
 
