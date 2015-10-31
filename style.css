@@ -173,10 +173,12 @@ li a {
 	}
 	input[type="submit"] {
 		box-shadow: 0;
+		background-color: none;
+		color: #204288;
 		transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
 	}
 	input[type="submit"]:hover {
-		background-color: #00aa00;
+		background-color: #204288;
 		color: #fff;
 		box-shadow: 2px 2px 2px #000;
 	}
