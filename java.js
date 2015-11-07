@@ -8,5 +8,7 @@ function clickSubmit() {
     }
 };
 
+var currentYear = new Date();
 
-
+var el = document.getElementById("footer-date")
+el.innerHTML = "&copy;" + currentYear.getFullYear() + " Willoe Rentals";
